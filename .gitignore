@@ -1,0 +1,4 @@
+venv/
+code/
+code_execution_env/
+.env
