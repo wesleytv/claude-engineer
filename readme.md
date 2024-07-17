@@ -54,7 +54,7 @@ Claude Engineer is an advanced interactive command-line interface (CLI) that har
    This is just for you if you want to run the main script in a virtual environment rather than in your default one.
    ```
    python -m venv code_execution_env
-   source code_execution_env/bin/activate  # On Windows, use: code_execution_env\Scripts\activate
+   code_execution_env\Scripts\activate # On Mac, use: source code_execution_env/bin/activate  
    pip install -r requirements.txt
    deactivate
    ```
