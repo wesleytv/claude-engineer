@@ -1206,7 +1206,7 @@ async def main():
     while True:
         user_input = await get_user_input()
 
-        if user_input.lower() == 'exit':
+        if user_input.lower() in ('exit', 'quit'):
             console.print(Panel("Thank you for chatting. Goodbye!", title_align="left", title="Goodbye", style="bold green"))
             break
 
